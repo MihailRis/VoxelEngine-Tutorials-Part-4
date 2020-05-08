@@ -39,8 +39,6 @@ Mesh* VoxelRenderer::render(Chunk* chunk){
 					continue;
 				}
 
-				id--;
-
 				float l;
 				float uvsize = 1.0f/16.0f;
 				float u = (id % 16) * uvsize;
