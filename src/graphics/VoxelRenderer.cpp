@@ -102,7 +102,7 @@ Mesh* VoxelRenderer::render(Chunk* chunk){
 					VERTEX(index, x - 0.5f, y + 0.5f, z - 0.5f, u+uvsize,v+uvsize, l);
 					VERTEX(index, x + 0.5f, y + 0.5f, z - 0.5f, u,v+uvsize, l);
 
-					VERTEX(index, x - 0.5f, y - 0.5f, z - 0.5f, u+uvsize,0, l);
+					VERTEX(index, x - 0.5f, y - 0.5f, z - 0.5f, u+uvsize,v, l);
 					VERTEX(index, x + 0.5f, y + 0.5f, z - 0.5f, u,v+uvsize, l);
 					VERTEX(index, x + 0.5f, y - 0.5f, z - 0.5f, u,v, l);
 				}
